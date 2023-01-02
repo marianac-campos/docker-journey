@@ -1,5 +1,7 @@
 # Docker
 
+```docker rmi $(docker images -q)```
+
 |Parâmetro|Explicação|
 |---|---|
 |-d|Execução do container em background|
