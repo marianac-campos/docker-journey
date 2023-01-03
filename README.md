@@ -1,3 +1,5 @@
+![docker_github](https://user-images.githubusercontent.com/69722854/210459662-51b06e9b-812d-4d9c-84ae-53a19d955bd7.png)
+
 # Docker
 
 ```docker rmi $(docker images -q)```
