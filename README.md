@@ -5,6 +5,8 @@ Docker is an open source platform that enables developers to build, deploy, run,
 
 ```docker rmi $(docker images -q)```
 
+## Basic commands
+
 |Parâmetro|Explicação|
 |---|---|
 |-d|Execução do container em background|
