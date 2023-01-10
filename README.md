@@ -10,12 +10,14 @@ Docker is an open source platform that enables developers to build, deploy, run,
 # Docker framework
 ![image](https://user-images.githubusercontent.com/69722854/211675798-e444c4ab-c5c6-46f4-bb6c-84b948216862.png)
 
-**Namespace** => Garante a isolação dos containers tendo sub-processos resposáveis por cada parte:
+**Namespace** => Garante a isolação dos containers tendo sub-processos resposáveis por cada parte:<br />
   **PID -** isola os processos rodando dentro do container
   **NET -** provê isolamento das inferfaces de rede
   **IPC -** isola a comunicação entre os processos e a memória compartilhada
   **MNT -** isola sistemas de arquivo
   **UTS -** isola o container do kernel, agindo dessa forma como se ele fosse outro host.
+  
+ **Cgroups** - define como e qual será o consumo de recursos para cada container (automaticamente ou manualmente)
 
 
 ```docker rmi $(docker images -q)```
